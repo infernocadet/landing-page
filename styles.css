@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+
+body {
+  /* background-color: rgb(31, 41, 55); */
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.first-section {
+  background-color: rgb(31, 41, 55);
+  display: flex;
+  flex-direction: row;
+  height: 450;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  background-color: #e5e7eb;
+}
+
+.fourth-section {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+}
+
+.left-space,
+.right-space {
+  flex: 1 1 auto;
+}
+
+.first-section-content {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  flex: 0 0 auto;
+  justify-content: center;
+}
+
+.second-section-content {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  flex: 0 0 auto;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.third-section-content {
+  display: flex;
+  width: 65vw;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fourth-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65vw;
+  flex: 0 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  box-sizing: content-box;
+  justify-self: flex-start;
+  margin-bottom: 0;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  padding: 0;
+}
+
+.first-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.first-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+
+.first-main > div {
+  width: 50%;
+  margin: auto;
+}
+
+.first-main-text {
+  padding: 16px;
+  padding-left: 0;
+  padding-right: 24px;
+}
+
+#title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+#sub-title {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 200;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.first-main button {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 550;
+  border-radius: 6px;
+}
+
+.header-img {
+  text-align: center;
+  vertical-align: middle;
+  background-color: grey;
+  height: 150px;
+  line-height: 150px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.first-main button:hover {
+  background-color: #0f53bf;
+  transition-duration: 0.2s;
+}
+
+.blue-box button:hover {
+  outline: 1px solid black;
+  background-color: white;
+  color: #3882f6;
+  transition-duration: 0.2s;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item p {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.box {
+  width: 80%;
+  height: 0;
+  padding-bottom: 80%;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.heading {
+  align-self: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.quote {
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  text-wrap: wrap;
+}
+
+.ref {
+  padding-top: 14px;
+  align-self: flex-end;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 6px;
+  height: 45%;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.text-box h1 {
+  margin: 0;
+  color: white;
+  font-size: 26px;
+}
+
+.text-box p {
+  margin: 0;
+  color: white;
+  font-weight: lighter;
+}
+
+.blue-box button {
+  border: 1px solid white;
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 550;
+  border-radius: 6px;
+}
